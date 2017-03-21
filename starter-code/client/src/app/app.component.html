@@ -1,3 +1,12 @@
-<h1>
-  {{title}}
-</h1>
+<header>
+  <h1>
+    {{ title }}
+  </h1>
+  <nav>
+    <ul>
+      <li> <a routerLink='/'> Journizzle Entrizzle Listizzle </a></li>
+      <li> <a routerLink='/entry/'> Journizzle Entrizzle Ditayizzle </a></li>
+    </ul>
+  </nav>
+</header>
+<router-outlet></router-outlet>

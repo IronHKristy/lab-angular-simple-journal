@@ -1,0 +1,13 @@
+<h2> Scholarly Quotes </h2>
+
+<div>
+  <ul *ngFor="let entry of entries">
+    <li>
+      <a [routerLink]="['entry', entry._id]">
+
+      <!-- <a routerLink="/entry/{{ entry._id }}"> -->
+        <b> {{ entry.title }} </b>
+      </a>
+    </li>
+  </ul>
+</div>
